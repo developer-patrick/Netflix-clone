@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  gap: 10vw;
+  justify-content: center;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  /*background: linear-gradient(#262626,#2A2A2A);*/
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 25;
+  align-items: center;
+}
+
+.NetflixLogo{
+  height: 4vh;
+}
+
+.bflex{
+  display: flex;
+  gap: 3vw;
+}
+
+.signin{
+  border: none;
+  background-color: #E50913;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+  border-radius: 0.5vh;
+  height: 5vh;
+  width: 20vw;
+}
+
+.bgimgone{
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#title{
+  font-weight: 700;
+  z-index: 2;
+  position: relative;
+  color: white;
+  top: 16vh;
+  font-family: "Poppins";
+  font-size: 4vh;
+  text-align: center;
+  padding: 4vh;
+}
+
+.para{
+  font-family: "Poppins";
+  position: relative;
+  z-index: 3;
+  color: white;
+  top: 14vh;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2vh;
+}
+
+.parag{
+  top: 14vh;
+  margin: 2vh;
+}
+
+.b2{
+  position: relative;
+  z-index: 5;
+  top: 26vh;
+  background-color: #E50913;
+  color: white;
+  font-weight: 500;
+  border: none;
+  height: 6.5vh;
+  width: 50vw;
+  font-size: 3vh;
+  border-radius: 0.3vh;
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #1a1a1a;
+}
+
+#secEND{
+  width: 100%;
+  position: relative;
+  z-index: 20;
+  top: 18vh;
+}
+
+.textHead{
+  color: white;
+  top: 4vh;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.imgScroll{
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+  padding: 5vh;
+  box-sizing: border-box;
+}
+
+.imgScroll img{
+  border: 0.1vh solid white;
+  height: 30vh;
+  width: 20vh;
+  position: relative;
+  top: 4vh;
+  margin: 1vh;
+  border-radius: 1vh;
+}
+
+.reasonDivCont{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2vh;
+  position: relative;
+  top: 9vh;
+}
+
+.reasonDIV{
+  height: 30vh;
+  width: 85vw;
+  background: linear-gradient(#192146, #210F1B);
+  /*border: 0.1vh solid white;*/
+  border-radius: 1vh;
+  padding: 3vh;
+}
+
+.t2{
+  top: 4vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.reasonHd{
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+.reasonP{
+  color: lightgray;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.t3{
+  top: 15vh;
+}
+
+.faq{
+  color: white;
+  position: relative;
+  top: 20vh;
+  font-family: "Mozilla Text",Arial, Helvetica, sans-serif;
+  
+}
+
+.qFAQ{
+  background-color: #303030;
+  list-style: none;
+  padding: 4vh;
+  border: 0.05vh solid white;
+  border-radius: 1vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  margin-top: 1vh;
+}
+
+.pFAQ{
+  background-color: #1E1E1E;
+  padding: 4vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  border: 0.05vh solid white;
+  border-radius: 1vh;
+}
+
+#footp1{
+  font-family: "Mozilla Text",Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: relative;
+  top: 30vh;
+  color: white;
+  font-size: 2vh;
+  margin: 3vh;
+}
+
+#callnum{
+  font-family: "Mozilla Text", Arial, Helvetica, sans-serif;
+  color: #a8a8a8;
+  margin: 3vh;
+  font-size: 2vh;
+  position: relative;
+  top: 30vh;
+}
+
+.footUL li{
+  color: white;
+  list-style: none;
+  position: relative;
+  top: 40vh;
+  font-size: 1.5vh;
+  margin: 3vh;
+  font-family: "Mozilla Text", Arial, Helvetica, sans-serif;
+}
+
+.footUL li a{
+  color: #a8a8a8;
+}
+
+.email{
+  color: white;
+  position: relative;
+  z-index: 24;
+  top: 24vh;
+  height: 5vh;
+  width: 70vw;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  border: 0.1vh solid white;
+  border-radius: 1vh;
+}
+
+.disclaimer{
+  color: white;
+  font-weight: bold;
+  font-family: "Mozilla Text",Arial, Helvetica, sans-serif;
+  margin: 3vh;
+  position: relative;
+  top: 56vh;
+}
